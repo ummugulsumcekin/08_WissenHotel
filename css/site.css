@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* başka sitelerden aldığımız sitelerden dosyalara href yerine kullandığımız dosylaara cdn denir */
+
+
+.save-icon{
+    font-size: 40px;
+    color: blue;
+
+}
+.edit-icon{
+    font-size: 40px;
+    color: rgb(255, 0, 183);
+    
+}
