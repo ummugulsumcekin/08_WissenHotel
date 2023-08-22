@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
 /*Margin*/
 .m-0 {
     margin: 0;
@@ -365,10 +370,24 @@
     border: 1px solid var(--light);
 }
 
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
 .w-75 {
     width: 75%;
 }
 
-.w-25 {
-    width: 25%;
+.w-100 {
+    width: 100%;
 }
+
+.flex-items {
+    display: flex;
+}
+
+.flex-item {}
