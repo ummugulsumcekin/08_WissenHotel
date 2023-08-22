@@ -391,3 +391,7 @@ a {
 }
 
 .flex-item {}
+
+.text-center {
+    text-align: center;
+}

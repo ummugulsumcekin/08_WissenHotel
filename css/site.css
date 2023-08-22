@@ -28,8 +28,16 @@ body {
 .menu-item a:hover {
     color: var(--warning);
     background-color: var(--light);
+    transition: all .3s;
 }
 
 .navbar {
+    align-items: center;
+}
+
+.content{
+    height: 65vh;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
