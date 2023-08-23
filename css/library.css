@@ -1,11 +1,11 @@
 :root {
-    --primary: #523906;
-    --secondary: #A4907C;
-    --success: #395144;
-    --danger: #AC4425;
-    --warning: #C8B6A6;
+    --primary: #65451F;
+    --secondary: #765827;
+    --success: #C8AE7D;
+    --danger: #9f300e;
+    --warning: #c4b6aa;
     --dark: #61481C;
-    --light: #F1DEC9;
+    --light: #f2e6d1;
 }
 
 * {
@@ -523,21 +523,25 @@ a {
 .text-center {
     text-align: center;
 }
+
 .row{
-    display: flex;
+    display:flex;
     flex-direction: row;
     width: 100%;
-
 }
-column-1{
+
+.column-1{
     width: 100%;
 }
-column-2{
+.column-2{
     width: 50%;
 }
-column-3{
-    width: 33.3%;
+.column-3{
+    width: 33%;
 }
-column-4{
+.column-4{
     width: 25%;
+}
+.column-3-2{
+    width: 66%;
 }
