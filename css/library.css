@@ -144,6 +144,100 @@ a {
 .ml-5 {
     margin-left: 14px;
 }
+/*Marjin yatay*/
+
+.mx-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.mx-1 {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.mx-2 {
+    margin-right: 6px;
+    margin-left:6px;
+}
+
+.mx-3 {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.mx-4 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mx-5 {
+    margin-right: 18px;
+    margin-left:18px;
+}
+
+/*Marjin dikey*/
+
+.my-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.my-1 {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.my-2 {
+    margin-right: 6px;
+    margin-left:6px;
+}
+
+.my-3 {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.my-4 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.my-5 {
+    margin-right: 18px;
+    margin-left:18px;
+}
+/*Marjin top*/
+
+.my-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.my-1 {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.my-2 {
+    margin-right: 6px;
+    margin-left:6px;
+}
+
+.my-3 {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.my-4 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.my-5 {
+    margin-right: 18px;
+    margin-left:18px;
+}
 
 /*Padding*/
 .p-0 {
@@ -388,9 +482,15 @@ a {
 
 .flex-items {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.flex-item {}
+.flex-item {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
 
 .text-center {
     text-align: center;
