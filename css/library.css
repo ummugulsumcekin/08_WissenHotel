@@ -523,3 +523,21 @@ a {
 .text-center {
     text-align: center;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+column-1{
+    width: 100%;
+}
+column-2{
+    width: 50%;
+}
+column-3{
+    width: 33.3%;
+}
+column-4{
+    width: 25%;
+}
