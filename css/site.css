@@ -36,10 +36,14 @@ body {
 }
 
 .content{
-    height: 65vh;
+    height: 95vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/bg-main1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
 }
 /* .flex-item .fa-solid{
     font-size: 60px !important;
