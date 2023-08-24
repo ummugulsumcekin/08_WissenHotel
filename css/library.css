@@ -571,3 +571,9 @@ a {
 .column-3-2{
     width: 66%;
 }
+
+.circle-img{
+    border-radius: 50%;
+    padding: 8px;
+    border:5px dotted var(--danger);
+}
