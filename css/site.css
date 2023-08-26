@@ -1,8 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
+}
+
+#header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 #top-menu {
@@ -22,7 +29,7 @@ body {
     width: 100%;
     height: 100%;
     display: inline-block;
-    padding:5px;
+    padding: 5px;
 }
 
 .menu-item a:hover {
@@ -35,16 +42,43 @@ body {
     align-items: center;
 }
 
-.content{
-    height: 95vh;
+.content {
+    height: 90vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/bg-main1.jpg);
+    background-image: url('../images/bg-main.jpg');
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
+    position: relative;
 }
-/* .flex-item .fa-solid{
-    font-size: 60px !important;
-} */
+
+.content::before {
+    content: "";
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.content h1 {
+    color: white;
+}
+
+.content p {
+    margin: 25px auto;
+    color: white;
+}
+
+.content-layer {
+    z-index: 1;
+    text-align: center;
+}
+
+#customer-service-left {}
+
+#customer-service-right {}

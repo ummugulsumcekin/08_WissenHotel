@@ -157,7 +157,7 @@ a {
 }
 
 .mx-2 {
-    margin-left:6px;
+    margin-left: 6px;
     margin-right: 6px;
 }
 
@@ -188,7 +188,7 @@ a {
 }
 
 .my-2 {
-    margin-top:6px;
+    margin-top: 6px;
     margin-bottom: 6px;
 }
 
@@ -395,28 +395,31 @@ a {
     padding-bottom: 18px;
 }
 
+/*Font-Size */
 
-/* font size */
-
-.f-1{
+.f-1 {
     font-size: 10px;
 }
-.f-2{
+
+.f-2 {
     font-size: 12px;
 }
-.f-3{
+
+.f-3 {
     font-size: 14px;
 }
-.f-4{
+
+.f-4 {
     font-size: 16px;
 }
-.f-5{
+
+.f-5 {
     font-size: 20px;
 }
-.f-6{
+
+.f-6 {
     font-size: 50px;
 }
-
 
 /* Text Color */
 .text-primary {
@@ -547,33 +550,38 @@ a {
     text-align: center;
 }
 
-.row{
-    display:flex;
+.row {
+    display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.column-1{
+.column-1 {
     width: 100%;
 }
-.column-2{
+
+.column-2 {
     width: 50%;
 }
-.column-3{
+
+.column-3 {
     width: 33%;
 }
-.column-4{
+
+.column-4 {
     width: 25%;
 }
+
 .column-4-3{
     width: 75%;
 }
-.column-3-2{
+
+.column-3-2 {
     width: 66%;
 }
 
 .circle-img{
     border-radius: 50%;
-    padding: 8px;
+    padding:8px;
     border:5px dotted var(--danger);
 }
