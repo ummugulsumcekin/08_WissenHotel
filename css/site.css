@@ -79,6 +79,36 @@ body {
     text-align: center;
 }
 
-#customer-service-left {}
+#customer-service {
+    background-color: #f2e6d1;
+    padding: 60px 0;
+}
 
-#customer-service-right {}
+#customer-service .column-3 {
+    width: 33%;
+    padding: 20px;
+}
+
+#customer-service .column-3-2 {
+    width: 66%;
+    padding: 20px;
+}
+
+#customer-service img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 8px;
+    border: 5px  ;
+}
+
+#customer-service h3 {
+    color: #C8AE7D;
+    font-size: 24px;
+    background-color: #61481C;
+    padding: 20px;
+}
+
+#customer-service p {
+    color: #61481C;
+    line-height: 1.6;
+}
